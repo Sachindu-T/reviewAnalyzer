@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.env
+
+# Large / regenerable model artifacts (produced by bert.py)
+bert_results/
+results/
+
+# Generated data (regenerable via collectReviwes.py / preprocessor.py / prepare_data.py)
+cleaned_reviews.csv
+preprocessed_reviews.csv
+labeled_preprocessed_reviews.csv
+labeled_data.csv
+customer_reviews.csv
+
